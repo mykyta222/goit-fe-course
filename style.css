@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.body {
+    color: grey;   
+}
+.site-navigation li {
+    display: inline-block;  
+}
+.site-navigation li:not(:last-child) {
+    margin-right: 100px;    
+}   
+.container {
+    width: 911px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.artical-list {
+    display: inline-block;
+    margin-right: 61px;
+}
+.artical-list:nth-child(2n) {
+    margin-right: 0px;
+}
+.artical-list {
+    width: 421px;
+    margin: 0;
+    padding: 0;
+}
+
+.height-width {
+    width: 421px;
+    height: 279px;
+}
